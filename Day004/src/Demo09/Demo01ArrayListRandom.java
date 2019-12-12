@@ -11,9 +11,9 @@ public class Demo01ArrayListRandom {
             int num = r.nextInt(33)+1;
             listA.add(num);
         }
-        int size = listA.size();
-        for (int i = 0; i < size; i++) {
-            System.out.println(listA.get(size));
+        for (int i = 0; i < listA.size(); i++) {
+            System.out.println(listA.get(i));
         }
     }
+
 }
